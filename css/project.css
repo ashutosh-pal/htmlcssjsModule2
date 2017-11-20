@@ -1,1 +1,14 @@
 
+.section-generic { 
+    display: block;
+    border-style : groove;
+    width: 32%;
+    float: right;
+    
+}
+.section-header {
+text-align: right;
+}
+.header{
+text-align: center;
+}
