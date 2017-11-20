@@ -5,7 +5,7 @@
 .section-generic { 
     border : 1px solid black;
     width: 33%;
-    float: right;
+    float: left;
     
 }
 .section-header {
@@ -18,39 +18,24 @@ text-align: center;
 
 /***Large devices only ****/
 @media (min-width: 1200px){
-    .section-generic { 
-    border : 1px solid black;
-    width: 33%;
-    float: right;
-    }
-    .section-header {
-    text-align: right;
+    .col-lg-3{
+        width: 33%;
     }
 }
 /************************/
 
 /*******Medium devices ****/
 @media (min-width: 992px) and (max-width: 1199px){
-    .section-generic { 
-    border : 1px solid black;
-    width: 33%;
-    float: right;
-    }
-    .section-header {
-    text-align: right;
+    .col-md-6{
+        width: 50%;
     }
 }
 /*************************/
 
 /********Small devices ****/
 @media (min-width: 768px) and (max-width: 991px){
-    .section-generic { 
-    border : 1px solid black;
-    width: 33%;
-    float: right;
-    }
-    .section-header {
-    text-align: right;
+    .col-sm-12{
+        width: 100%;
     }
 }
 /**************************/
