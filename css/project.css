@@ -1,7 +1,9 @@
 
+
+
+/************** Base styling ***************/
 .section-generic { 
-    display: block;
-    border-style : groove;
+    border : 1px solid black;
     width: 33%;
     float: right;
     
@@ -12,3 +14,43 @@ text-align: right;
 .header{
 text-align: center;
 }
+/******************************************/
+
+/***Large devices only ****/
+@media (min-width: 1200px){
+    .section-generic { 
+    border : 1px solid black;
+    width: 33%;
+    float: right;
+    }
+    .section-header {
+    text-align: right;
+    }
+}
+/************************/
+
+/*******Medium devices ****/
+@media (min-width: 992px) and (max-width: 1199px){
+    .section-generic { 
+    border : 1px solid black;
+    width: 33%;
+    float: right;
+    }
+    .section-header {
+    text-align: right;
+    }
+}
+/*************************/
+
+/********Small devices ****/
+@media (min-width: 768px) and (max-width: 991px){
+    .section-generic { 
+    border : 1px solid black;
+    width: 33%;
+    float: right;
+    }
+    .section-header {
+    text-align: right;
+    }
+}
+/**************************/
