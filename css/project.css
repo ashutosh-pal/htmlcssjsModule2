@@ -7,24 +7,25 @@
     width: 33%;
     float: left;
     background: lightgray;
-    padding: 1%;
-  
+    margin: 1%;
 }
 .section-header {
-text-align: right;
-border: 1px solid black;
-float: right;
-font-family: "Times New Roman", Times, serif;
-font-weight: bold;
-color: white;
-background: burlywood;
+    text-align: right;
+    border: 1px solid black;
+    float: right;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    background: burlywood;
+    padding: 1%;
 }
 .section-content {
- padding: 1%;
+    padding: 1%;
+    display: inline-block;
 }
 
 .header{
-text-align: center;
+    text-align: center;
 }
 /******************************************/
 
