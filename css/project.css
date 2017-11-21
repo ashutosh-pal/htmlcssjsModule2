@@ -9,16 +9,29 @@
     background: lightgray;
     margin: 1%;
 }
-.section-header {
+.section-header1, .section-header2, .section-header3 {
     text-align: right;
     border: 1px solid black;
     float: right;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 20px;
+    padding: 1%;
+}
+
+.section-header1 {
+    color: black;
+    background: lightyellow;
+}
+
+.section-header2 {
     color: black;
     background: burlywood;
-    padding: 1%;
+}
+
+.section-header3 {
+    color: black;
+    background: darkcyan;
 }
 .section-content {
     padding: 1%;
@@ -33,6 +46,8 @@
     padding: 1%;
     font-size: 28px;
 }
+
+
 /******************************************/
 
 /***Large devices only ****/
