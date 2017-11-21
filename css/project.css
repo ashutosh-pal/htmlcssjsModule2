@@ -15,6 +15,7 @@
     float: right;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
+    font-size: 20px;
     color: black;
     background: burlywood;
     padding: 1%;
@@ -22,6 +23,7 @@
 .section-content {
     padding: 1%;
     display: inline-block;
+    font-size: 16px;
 }
 
 .header{
@@ -29,6 +31,7 @@
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     padding: 1%;
+    font-size: 28px;
 }
 /******************************************/
 
