@@ -33,7 +33,7 @@ text-align: center;
 /*************************/
 
 /********Small devices ****/
-@media (min-width: 767px) {
+@media (max-width: 767px) {
     .col-sm-12{
         width: 100%;
     }
