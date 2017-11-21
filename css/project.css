@@ -6,10 +6,17 @@
     border : 1px solid black;
     width: 33%;
     float: left;
-    
+    background: lightgray;
+  
 }
 .section-header {
 text-align: right;
+border: 1px solid black;
+float: right;
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+color: white;
+background: burlywood;
 }
 .header{
 text-align: center;
