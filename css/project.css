@@ -33,7 +33,7 @@
     color: white;
     background: darkcyan;
 }
-.section-content {
+.section-content1, section-content2, section-content3 {
     padding: 1%;
     display: inline-block;
     font-size: 16px;
@@ -59,6 +59,15 @@
     .col-lg-3{
         width: 31%;
     }
+    .section-content1{
+        width: 31%; 
+    }
+    section-content2{
+        width: 31%;
+    }
+    section-content3{
+        width: 31%;
+    }
 }
 /************************/
 
@@ -67,12 +76,30 @@
     .col-md-6{
         width: 45%;
     }
+    .section-content1{
+        width: 45%; 
+    }
+    section-content2{
+        width: 45%;
+    }
+    section-content3{
+        width: 100%;
+    }
 }
 /*************************/
 
 /********Small devices ****/
 @media (max-width: 767px) {
     .col-sm-12{
+        width: 100%;
+    }
+     .section-content1{
+        width: 100%; 
+    }
+    section-content2{
+        width: 100%;
+    }
+    section-content3{
         width: 100%;
     }
 }
