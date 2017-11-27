@@ -70,13 +70,13 @@
 /*******Medium devices ****/
 @media (min-width: 768px) and (max-width: 991px){
     .section-box1{
-        width: 43%; 
+        width: 47%; 
     }
     .section-box2{
-        width: 43%;
+        width: 47%;
     }
     .section-box3{
-        width: 100%;
+        width: 97%;
     }
 }
 /*************************/
