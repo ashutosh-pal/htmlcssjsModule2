@@ -84,13 +84,13 @@
 /********Small devices ****/
 @media (max-width: 767px) {
     .section-box1{
-        width: 100%; 
+        width: 98%; 
     }
     .section-box2{
-        width: 100%;
+        width: 98%;
     }
     .section-box3{
-        width: 100%;
+        width: 98%;
     }
 }
 /**************************/
