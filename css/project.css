@@ -2,7 +2,7 @@
 
 
 /************** Base styling ***************/
-.section-generic { 
+.section-box1, .section-box2, .section-box3 { 
     border : 1px solid black;
     width: 33%;
     float: left;
@@ -33,7 +33,7 @@
     color: white;
     background: darkcyan;
 }
-.section-content1, .section-content2, .section-content3 {
+.section-content {
     padding: 1%;
     display: inline-block;
     font-size: 16px;
@@ -59,13 +59,13 @@
     .col-lg-3{
         width: 31%;
     }
-    .section-content1{
+    .section-box1{
         width: 31%; 
     }
-    section-content2{
+    .section-box2{
         width: 31%;
     }
-    section-content3{
+    .section-box3{
         width: 31%;
     }
 }
@@ -73,16 +73,13 @@
 
 /*******Medium devices ****/
 @media (min-width: 768px) and (max-width: 991px){
-    .col-md-6{
-        width: 45%;
+    .section-box1{
+        width: 31%; 
     }
-    .section-content1{
-        width: 45%; 
+    .section-box2{
+        width: 31%;
     }
-    .section-content2{
-        width: 45%;
-    }
-    .section-content3{
+    .section-box3{
         width: 100%;
     }
 }
@@ -90,16 +87,13 @@
 
 /********Small devices ****/
 @media (max-width: 767px) {
-    .col-sm-12{
-        width: 100%;
-    }
-     .section-content1{
+    .section-box1{
         width: 100%; 
     }
-    section-content2{
+    .section-box2{
         width: 100%;
     }
-    section-content3{
+    .section-box3{
         width: 100%;
     }
 }
