@@ -48,10 +48,6 @@
     font-size: 28px;
 }
 
-.row{
-    width: 100%;
-}
-
 /******************************************/
 
 /***Large devices only ****/
@@ -74,10 +70,10 @@
 /*******Medium devices ****/
 @media (min-width: 768px) and (max-width: 991px){
     .section-box1{
-        width: 31%; 
+        width: 43%; 
     }
     .section-box2{
-        width: 31%;
+        width: 43%;
     }
     .section-box3{
         width: 100%;
